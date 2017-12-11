@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches its snapshot 1`] = `
+<div
+  className="frame"
+>
+  <div
+    className="calculator-title"
+  >
+    Reactulator
+  </div>
+</div>
+`;
