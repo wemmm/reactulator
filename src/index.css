@@ -1,5 +1,51 @@
+@font-face {
+  font-family: 'Calculator';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Calculator'), local('Calculator'),
+       url('./fonts/Calculator.ttf') format('truetype')
+}
+
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+div.frame {
+  width: 365px;
+  margin: auto;
+}
+
+div.calculator-title {
+  font-family: Aldrich;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+input.button {
+  background-color: darkgrey;
+  width: 59px;
+  height: 50px;
+  font-family: Aldrich;
+  font-size: 20px;
+  padding-top: 7px;
+}
+
+input.button:hover {
+  background-color: darkgoldenrod;
+}
+
+input.screen {
+  background-color: darkslategrey;
+  color: lawngreen;
+  width: 347px;
+  height: 50px;
+  font-size: 30px;
+  font-family: Calculator, sans-serif;
+  text-shadow: 0 0 3px greenyellow;
+  letter-spacing: 4px;
+  padding-left: 4px;
 }
